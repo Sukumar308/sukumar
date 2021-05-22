@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>form creation</title>
+  </head>
+ <body bg color='cyan'>
+ <h1.align='right'><u>sign up page</u></h1>
+ <center>
+ <form>
+ <table border="1" bg color="pink">
+ <tr>
+ <td>username:</td>
+ <td><input type="text"name='t1' placeholder='enter the name'maxlength="6"/></td>
+ </tr>
+ <tr>
+ <td>password:</td>
+ <td><input type="password"name='t2'/></td>
+ </tr>
+ <tr>
+ <td>Emailid:</td>
+ <td><input type='email'name='t3'></td>
+ </tr>
+ <tr>
+ <td>MOb No:</td>
+ <td><input type='number'name='t4'></td>
+ </tr>
+ <tr>
+ <td>DOB:</td>
+ <td><input type='date'name='t5'/></td>
+ </tr>
+ <tr>
+ <td>Gender</td>
+ <td><input type='radio'name='r1'>male</input>
+     <input type='radio'name='r2'>female</input>
+	 others
+	 </td>
+	 </tr>
+<tr>
+<td>Address:</td>
+<td><text area name='a1'cols='4',rows='5'/></td>
+</tr>
+<tr>
+<td>subjects:</td>
+<td><input type='checkbox'name='c1'>sql</input>
+<td><input type='checkbox'name='c1'>html</input>
+<td><input type='checkbox'name='c1'>python</input></td>
+</tr>
+<tr>
+<td>city:</td>
+<td><select namme='s1'>
+    <option>---select---</option>
+	<option>Banglore</option>
+	<option>Mysore</option>
+	<option>Chennai</option>
+	<option>Hyderabad</option>
+	</select>
+	</td>
+	</tr>
+	<tr>
+	<td>resume:</td>
+	<td><input type='file'name='r7'></td>
+	</tr>
+	<tr>
+	<td align=center colspan='2'>
+	<input type='submit'name='b1',value='sub'>
+	<input type='reset'name='b2',value='res'>
+	</td>
+	</tr>
+	</table>
+	</form>
+	</center>
+	</body>
+	</html>
+
+  
+ 
